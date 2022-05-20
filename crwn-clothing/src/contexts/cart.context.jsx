@@ -1,7 +1,15 @@
 import { createContext, useState } from "react";
+import CartItem from "../components/cart-item/cart-item.component";
 
 const addCartItem = (cartItems, productToAdd) => {
+    if (cartItems.includes(productToAdd)) {
+       const found = productToAdd.find(cartItems);
+       if (found === true) {
 
+       }
+       return cartItems.map(found);
+    }
+    
 }
 
 export const CartContext = createContext({
