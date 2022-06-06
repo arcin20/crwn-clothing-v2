@@ -4,7 +4,7 @@ const Checkout = () => {
     return (
         <div>
         <h1>
-            Hier kommen Sie zum Warenkorb te 
+            Hier kommen Sie zum Warenkorb te asdasdads
         </h1>
         </div>
 
