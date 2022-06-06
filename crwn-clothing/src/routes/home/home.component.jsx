@@ -1,3 +1,5 @@
+
+import Button from "../../components/button/button-component";
 import Directory from "../../components/directory-item/directory";
 
 
@@ -34,6 +36,7 @@ const Home = () => {
   return (
     <div>
       <Directory categories={categories} ></Directory>
+      <Button />
     </div>
   );
 };
